@@ -1,0 +1,127 @@
+@media (width <=500px) {
+    section.hero {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem 1.5rem 3rem;
+
+        & div>h1 {
+            font-size: 2rem;
+            
+
+        }
+
+        & h1 div {
+            height: 2rem;
+            
+
+        }
+        
+
+        .buttons {
+            display: flex;
+            flex-direction: column-reverse;
+
+            &.buttons>a {
+                margin-bottom: 1.5rem;
+
+            }
+
+
+        }
+
+    }
+
+    @keyframes slideUp {
+
+        0%,
+        22% {
+            transform: translateY(0);
+        }
+
+        23% {
+            transform: translateY(calc(-2.7rem - 15px));
+        }
+
+        25% {
+            transform: translateY(calc(-2.7rem + 10px));
+        }
+
+        27% {
+            transform: translateY(calc(-2.7rem - 5px));
+        }
+
+        29% {
+            transform: translateY(calc(-2.7rem + 5px));
+        }
+
+        33%,
+        55% {
+            transform: translateY(-3.2rem);
+        }
+
+        56% {
+            transform: translateY(calc(-3.2rem - 15px));
+        }
+
+        58% {
+            transform: translateY(calc(-3.2rem + 10px));
+        }
+
+        60% {
+            transform: translateY(calc(-3.2rem - 15px));
+        }
+
+        63% {
+            transform: translateY(calc(-3.2rem + 15px));
+        }
+
+        66%,
+        88% {
+            transform: translateY(-6.4rem);
+        }
+
+        89% {
+            transform: translateY(calc(-6.4rem - 15px));
+        }
+
+        92% {
+            transform: translateY(calc(-6.4rem + 10px));
+        }
+
+        95% {
+            transform: translateY(calc(-6.4rem - 12px));
+        }
+
+        98% {
+            transform: translateY(calc(-6.4rem + 12px));
+        }
+
+        100% {
+            transform: translateY(-8.7rem);
+        }
+    }
+
+
+    .gallery {
+
+        & header {
+
+            & span {
+                font-size: .75rem;
+
+            }
+
+
+            & h2 {
+                max-width: 100%;
+                font-size: 1.5rem;
+            }
+
+
+        }
+
+    }
+
+
+
+}
